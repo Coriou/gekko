@@ -61,7 +61,7 @@ Beside those there are also two additional market events that are only emitted w
 - What: An object signaling that the strategy is now completely warmed up
 and will start signaling advice.
 - When: Once the strategy consumed more market data than defined by the required history.
-- Subscribe: You can subscribe to this event by registering the `processWarmupCompleted` method.
+- Subscribe: You can subscribe to this event by registering the `processStratWarmupCompleted` method.
 - Notes:
   - This event is triggered on init when the strategy does not require any history (and thus no warmup time).
 - Example:
