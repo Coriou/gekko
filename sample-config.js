@@ -289,6 +289,12 @@ config.candleUploader = {
   apiKey: ''
 }
 
+config.discordbot = {
+  enabled: false,
+  channel: '',
+  token: '',
+};
+
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 //                       CONFIGURING ADAPTER
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

@@ -255,6 +255,19 @@ var plugins = [
     async: false,
     modes: ['realtime'],
   },
+  {
+    name: 'Discord Bot',
+    description: 'Discord Gekko plugin (notification only)',
+    slug: 'discord',
+    async: false,
+    modes: ['realtime'],
+    dependencies: [
+      {
+        module: 'discord.js',
+        version: '11.4.2',
+      },
+    ],
+  },
 ];
 
 module.exports = plugins;
